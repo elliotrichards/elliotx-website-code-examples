@@ -45,7 +45,7 @@ One of the biggest challenges was discovering that Last.fm **always returns the 
 - No `date` field  
 - A timestamp greater than `y_end`  
 
-What I discovered was that if you are scrobbling music  at the time the script is running then it will pick up this data artefact. It's not documented.
+What I discovered was that if you are scrobbling music at the time the script is running then it will pick up this data artefact. It's not documented.
 
 This caused the script to incorrectly include a track from *today* alongside yesterday’s scrobbles, and consequently I went around in circles trying to figure it out.
 
