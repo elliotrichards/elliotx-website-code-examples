@@ -1,5 +1,5 @@
 certifi==2026.10.19
-charset-normalizer==3.5.1
+charset-normalizer==3.5.2
 idna==3.19
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.3
