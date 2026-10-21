@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # One entry per Python example — add a new one alongside each new folder
+  # with a requirements.txt.
+  - package-ecosystem: pip
+    directory: /last.fm/get-user-tracks-yesterday
+    schedule:
+      interval: weekly
